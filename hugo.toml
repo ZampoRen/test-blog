@@ -1,0 +1,51 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'zh-cn'
+title = '我的测试博客'
+theme = 'PaperMod'
+
+[params]
+  env = "development"
+  description = "Hugo + OpenClaw 测试博客"
+  author = "测试用户"
+  defaultTheme = "auto"  # auto/light/dark
+  displayFullLangName = true
+  ShowCodeCopyButtons = true
+  ShowShareButtons = true
+  ShowReadingTime = true
+  ShowToc = true
+  TocOpen = true
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  ShowAllPagesInArchive = true
+  ShowPageNums = true
+  comments = false
+  
+[params.social]
+  github = "ZampoRen"
+  twitter = "your_twitter"
+  email = "your@email.com"
+
+[params.assets]
+  disableHLJS = false
+  disableFingerprint = false
+  
+[params.cover]
+  hidden = false  # true 隐藏封面图
+  hiddenInList = false
+  hiddenInSingle = false
+
+[menu]
+  [[menu.main]]
+    name = "首页"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "归档"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    name = "标签"
+    url = "/tags/"
+    weight = 3
