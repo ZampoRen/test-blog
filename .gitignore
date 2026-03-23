@@ -9,3 +9,7 @@ public/
 .vscode/
 .idea/
 *.swp
+*.log
+
+# Node modules
+node_modules/
